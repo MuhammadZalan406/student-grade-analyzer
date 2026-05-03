@@ -24,7 +24,7 @@ def get_grade_meaning(grade):
 
 def main():
     print("=" * 50)
-    print("   📚 STUDENT GRADE CALCULATOR & ANALYZER")
+    print("    STUDENT GRADE CALCULATOR & ANALYZER")
     print("=" * 50)
     
     students = {}
@@ -61,7 +61,7 @@ def main():
     
     # Display results
     print("\n" + "=" * 50)
-    print("              📈 ANALYSIS REPORT")
+    print("               ANALYSIS REPORT")
     print("=" * 50)
     
     print(f"\n Total Students: {num_students}")
@@ -85,7 +85,7 @@ def main():
     
     # Individual report
     print("\n" + "=" * 50)
-    print("         👨‍🎓 INDIVIDUAL STUDENT REPORT")
+    print("          INDIVIDUAL STUDENT REPORT")
     print("=" * 50)
     for name, marks in students.items():
         grade = get_grade(marks)
